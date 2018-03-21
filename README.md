@@ -1,1 +1,28 @@
 # Lollygag-Looper
+
+# Background & MVP
+
+Lollygag Looper is an audio looping app that allows the user to click buttons and create overlapping loops from a variety of synthesized sound sources. The user is able to adjust the tempo of the underlying loop and change the timbre and pitch of the sound sources. There is also a visual element that is triggered when each sound source is initiated or repeated.
+
+The project will also include a production README.
+
+# Technologies
+
+The project will use JavaScript, HTML, CSS, and possibly a Web Audio framework such as Tone.js.
+
+# Wireframes
+
+
+#Implementation timeline
+
+Day 1:
+
+Set up the project and learn as much as possible about how to use Tone.js. Render the visual layout of the app.
+
+Day 2:
+
+Implement the looping functionality and the synthesized sounds.
+
+Day 3:
+
+Implement any visual effects, tempo and pitch inputs.
