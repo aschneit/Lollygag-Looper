@@ -13,7 +13,7 @@ The project will use JavaScript, HTML, CSS, and possibly a Web Audio framework s
 # Wireframes
 
 
-#Implementation timeline
+# Implementation timeline
 
 Day 1:
 
