@@ -4,9 +4,16 @@
     <meta charset="utf-8">
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="display.css" type="text/css">
   </head>
   <body>
     <canvas id="app-canvas"></canvas>
+    <div class="controls">
+      <form class="tempo">
+        <h2>Tempo: <span class=tempo-value></span></h2>
+        <input type="range" min="1" max="300" value="150" class="slider" id="myRange">
+      </form>
+  </div>
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
 </html>

@@ -1,0 +1,31 @@
+.controls {
+  position: relative;
+  bottom: 240px;
+  left: 35px;
+}
+
+.controls h2{
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+}
+
+.slider {
+  -webkit-appearance: none;
+    appearance: none;
+    width: 125px;
+    height: 15px;
+    background-color: yellow;
+    border: 5px solid blue;
+    outline: none;
+
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 15px;
+    background-color: green;
+    cursor: pointer;
+}
