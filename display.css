@@ -1,3 +1,43 @@
+.title {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  background: transparent;
+  font-size: 70px;
+  width: 1000px;
+  text-align: center;
+  height: 0;
+  color: #3f00ff;
+}
+
+.drum-heading {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  position: absolute;
+  top: 200px;
+  left: 65px;
+
+}
+
+.bass-heading {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  position: absolute;
+  top: 200px;
+  left: 486px;
+
+}
+
+.keys-heading {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  position: absolute;
+  top: 200px;
+  left: 839px;
+}
+
 .controls {
   position: relative;
   bottom: 240px;
