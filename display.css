@@ -69,3 +69,22 @@
     background-color: green;
     cursor: pointer;
 }
+
+.stop {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  left: 360px;
+  bottom: 4px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  background-color: yellow;
+  border: 5px solid blue;
+  font-weight: 900;
+  outline: none;
+}
+
+.stop:active {
+  background-color: green;
+}
