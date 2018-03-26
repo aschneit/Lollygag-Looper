@@ -25,7 +25,7 @@
   color: blue;
   position: absolute;
   top: 200px;
-  left: 486px;
+  left: 430px;
 
 }
 
@@ -35,7 +35,7 @@
   color: blue;
   position: absolute;
   top: 200px;
-  left: 839px;
+  left: 789px;
 }
 
 .controls {
@@ -147,4 +147,28 @@
   font-size: 16px;
   color: blue;
   font-weight: 900;
+}
+
+.credits {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  color: blue;
+  position: relative;
+  bottom: 120px;
+  left: 350px;
+}
+
+.credits a  {
+  text-decoration: none;
+  color: blue;
+
+}
+
+.credits a:hover {
+  color: green;
+
+
 }

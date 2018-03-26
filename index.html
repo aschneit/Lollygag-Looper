@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <title>Lollygag Looper</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="application/javascript" src="lib/bundle.js"></script>
     <link rel="stylesheet" href="display.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   </head>
   <body>
     <h1 class="title">Lollygag Looper</h1>
     <h2 class="drum-heading">Drum Loop</h2>
-    <h2 class="bass-heading">Bass</h2>
-    <h2 class="keys-heading">Keys</h2>
+    <h2 class="bass-heading">Bass (Click a String)</h2>
+    <h2 class="keys-heading">Keys (Click a Key)</h2>
     <canvas id="app-canvas"></canvas>
     <div class="controls">
       <form class="tempo">
@@ -27,7 +28,10 @@
         <label class='drums-mute-label'>Mute </label>
         <input type="checkbox" class="drums-mute">
       </form>
-  </div>
-    <script type="application/javascript" src="lib/bundle.js"></script>
+    </div>
+    <div class="credits">
+      <span>by Adam Schneit</span><span><a href="https://github.com/aschneit" target="_blank">GitHub</a></span>
+    </div>
+
   </body>
 </html>
