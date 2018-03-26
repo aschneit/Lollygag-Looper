@@ -44,6 +44,11 @@
   left: 35px;
 }
 
+.tempo {
+  position: relative;
+  top: 35px;
+}
+
 .controls h2{
   font-family: Helvetica;
   font-size: 16px;
@@ -74,8 +79,8 @@
   -webkit-appearance: none;
   appearance: none;
   position: absolute;
-  left: 360px;
-  bottom: 4px;
+  left: 410px;
+
   font-family: Helvetica;
   font-size: 16px;
   color: blue;
@@ -87,4 +92,59 @@
 
 .stop:active {
   background-color: green;
+}
+
+.bass-mute {
+  position: absolute;
+  bottom: 55px;
+  left: 485px;
+
+}
+
+
+.bass-mute-label {
+  position: absolute;
+  bottom: 55px;
+  left: 445px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  font-weight: 900;
+}
+
+
+.keys-mute {
+  position: absolute;
+  bottom: 55px;
+  left: 830px;
+
+}
+
+
+.keys-mute-label {
+  position: absolute;
+  bottom: 55px;
+  left: 790px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  font-weight: 900;
+}
+
+.drums-mute {
+  position: absolute;
+  bottom: 55px;
+  left: 80px;
+
+}
+
+
+.drums-mute-label {
+  position: absolute;
+  bottom: 55px;
+  left: 40px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  font-weight: 900;
 }
