@@ -15,7 +15,7 @@ The project will use JavaScript, HTML, CSS, and possibly a Web Audio framework s
 
 # Gif
 
-![Alt Text] (http://media.giphy.com/media/30pThBT0y2UayfnUb9/giphy.gif)
+![Alt Text](http://media.giphy.com/media/30pThBT0y2UayfnUb9/giphy.gif)
 
 
 
