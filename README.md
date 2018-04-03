@@ -11,7 +11,13 @@ The project will also include a production README.
 The project will use JavaScript, HTML, CSS, and possibly a Web Audio framework such as Tone.js.
 
 # Wireframes
-<img src="https://user-images.githubusercontent.com/31394310/37694095-b2ee61ec-2c9a-11e8-804f-4fb51a9db79d.jpg" width="90%"></img> 
+<img src="https://user-images.githubusercontent.com/31394310/37694095-b2ee61ec-2c9a-11e8-804f-4fb51a9db79d.jpg" width="90%"></img>
+
+# Gif
+
+![Alt Text] (http://media.giphy.com/media/30pThBT0y2UayfnUb9/giphy.gif)
+
+
 
 # Implementation timeline
 
