@@ -1,4 +1,29 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+.project {
+
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1000px;
+
+
+}
+
+
+#app-canvas {
+  display: block;
+}
+
+
 .title {
+
   font-family: 'Great Vibes', cursive;
   position: absolute;
   background: transparent;
@@ -6,36 +31,41 @@
   width: 1000px;
   text-align: center;
   height: 0;
+  top: 50px;
   color: #3f00ff;
 }
 
 .drum-heading {
+  display: block;
+  width: 100px;
   font-family: Helvetica;
   font-size: 16px;
   color: blue;
-  position: absolute;
-  top: 200px;
-  left: 65px;
+  position: relative;
+  top: 300px;
+  left: 58px;
 
 }
 
 .bass-heading {
+  width: 200px;
   font-family: Helvetica;
   font-size: 16px;
   color: blue;
-  position: absolute;
-  top: 200px;
-  left: 430px;
+  position: relative;
+  top: 270px;
+  left: 427px;
 
 }
 
 .keys-heading {
+  width: 200px;
   font-family: Helvetica;
   font-size: 16px;
   color: blue;
-  position: absolute;
-  top: 200px;
-  left: 789px;
+  position: relative;
+  top: 240px;
+  left: 782px;
 }
 
 .controls {
@@ -45,6 +75,7 @@
 }
 
 .tempo {
+  width: 100px;
   position: relative;
   top: 35px;
 }
