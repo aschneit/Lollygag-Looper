@@ -203,3 +203,21 @@ body {
 
 
 }
+
+.demo {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  left: 780px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  background-color: yellow;
+  border: 5px solid blue;
+  font-weight: 900;
+  outline: none;
+}
+
+.demo:active {
+  background-color: green;
+}
