@@ -37,13 +37,13 @@ body {
 
 .drum-heading {
   display: block;
-  width: 100px;
+  width: 150px;
   font-family: Helvetica;
   font-size: 16px;
   color: blue;
   position: relative;
   top: 300px;
-  left: 58px;
+  left: 30px;
 
 }
 
@@ -78,6 +78,7 @@ body {
   width: 100px;
   position: relative;
   top: 35px;
+
 }
 
 .controls h2{
@@ -95,6 +96,7 @@ body {
     border: 5px solid blue;
     outline: none;
 
+
 }
 
 .slider::-webkit-slider-thumb {
@@ -111,7 +113,7 @@ body {
   appearance: none;
   position: absolute;
   left: 410px;
-
+  cursor: pointer;
   font-family: Helvetica;
   font-size: 16px;
   color: blue;
@@ -129,7 +131,7 @@ body {
   position: absolute;
   bottom: 55px;
   left: 485px;
-
+  cursor: pointer;
 }
 
 
@@ -148,6 +150,7 @@ body {
   position: absolute;
   bottom: 55px;
   left: 830px;
+  cursor: pointer;
 
 }
 
@@ -166,7 +169,7 @@ body {
   position: absolute;
   bottom: 55px;
   left: 80px;
-
+  cursor: pointer;
 }
 
 
@@ -216,6 +219,7 @@ body {
   border: 5px solid blue;
   font-weight: 900;
   outline: none;
+  cursor: pointer;
 }
 
 .demo:active {
