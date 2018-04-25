@@ -23,7 +23,6 @@ body {
 
 
 .title {
-
   font-family: 'Great Vibes', cursive;
   position: absolute;
   background: transparent;
@@ -31,7 +30,7 @@ body {
   width: 1000px;
   text-align: center;
   height: 0;
-  top: 50px;
+  top: 70px;
   color: #3f00ff;
 }
 
@@ -185,14 +184,14 @@ body {
 
 .credits {
   display: flex;
-  width: 300px;
-  justify-content: space-between;
+  width: 350px;
+  justify-content: space-around;
   font-family: 'Great Vibes', cursive;
   font-size: 30px;
   color: blue;
   position: relative;
   bottom: 120px;
-  left: 350px;
+  left: 325px;
 }
 
 .credits a  {
