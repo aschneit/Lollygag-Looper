@@ -16,6 +16,60 @@ body {
 
 }
 
+.instructions {
+  position: absolute;
+  width: 270px;
+  display: none;
+  z-index: 10;
+  border: 6px solid #3f00ff;
+  border-left: 0;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  font-weight: 900;
+  list-style: none;
+  padding: 0;
+
+
+}
+
+.instructions li {
+  padding: 10px;
+  width: 250px;
+}
+
+.i1 {
+  background-color: green;
+}
+
+.i2 {
+  background-color: orange;
+}
+
+.i3 {
+  background-color: yellow;
+}
+
+.i4 {
+  background-color: beige;
+}
+
+.inst-button {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  top: 240px;
+  left: 591px;
+  cursor: pointer;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: blue;
+  background-color: yellow;
+  border: 5px solid blue;
+  font-weight: 900;
+  outline: none;
+}
+
 
 #app-canvas {
   display: block;
