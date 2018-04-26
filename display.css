@@ -12,7 +12,7 @@ body {
     margin: auto;
     display: block;
     width: 1000px;
-
+    position: relative;
 
 }
 
@@ -59,7 +59,7 @@ body {
   appearance: none;
   position: absolute;
   top: 240px;
-  left: 591px;
+  left: 442px;
   cursor: pointer;
   font-family: Helvetica;
   font-size: 16px;
@@ -141,6 +141,7 @@ body {
 }
 
 .slider {
+  -moz-appearance: none;
   -webkit-appearance: none;
     appearance: none;
     width: 125px;
@@ -159,6 +160,18 @@ body {
     height: 15px;
     background-color: green;
     cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 15px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.slider::-moz-range-track {
+  background:transparent;
+  border:0px;
 }
 
 .stop {
