@@ -12,7 +12,7 @@ body {
     margin: auto;
     display: block;
     width: 1000px;
-    position: relative;
+
 
 }
 
@@ -54,6 +54,9 @@ body {
   background-color: beige;
 }
 
+.inst-button-div {
+  position: relative;
+}
 .inst-button {
   -webkit-appearance: none;
   appearance: none;
