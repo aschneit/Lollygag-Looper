@@ -1,0 +1,28 @@
+{
+  "name": "LollygagLooper",
+  "version": "1.0.0",
+  "description": "Lollygag Looper is an audio app written in JavaScript that allows the user to click elements on a canvas and create overlapping loops from synthesized sound sources. The Tone.js library is employed to create the custom synths and schedule the loops. Click events targeted on the canvas add elements to the loops and trigger corresponding animations. Loops can be muted and the tempo adjusted through sliders and check boxes on the interface.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "tone": "^13.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschneit/Lollygag-Looper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aschneit/Lollygag-Looper/issues"
+  },
+  "homepage": "https://github.com/aschneit/Lollygag-Looper#readme"
+}
